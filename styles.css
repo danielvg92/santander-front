@@ -20,15 +20,19 @@ body{
 }
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-top: 40px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 40px  20px 0 20px;
     font-size: 0;
     line-height: 45px;
   }
 
 li{
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 
   }
 
@@ -38,7 +42,7 @@ li{
       vertical-align: middle;
       height: 100%;
       line-height: 45px;
-
+      font-family: sans-serif;
   }
 
   .logo {
@@ -47,12 +51,35 @@ li{
 
   .navbar {
       width: 70%;
-      text-align: center;
-      color: green;
+      text-align: left;
+      color: #025157;
   }
 
   .actions {
       width: 15%;
-      text-align: right;
+      text-align: left;
       font-size: 14px;
   }
+
+  .actions > * {
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+
+  .actions a
+  {
+      color: #67b54b;
+
+  }
+
+  .actions button{
+      color: white;
+      background-color: #67b54b;
+      padding: 12px 14px 12px 14px;
+      border: 0;
+      border-radius: 5px;
+  }
+
+
+
+
