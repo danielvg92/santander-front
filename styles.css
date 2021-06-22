@@ -80,9 +80,24 @@ li{
       border-radius: 5px;
   }
 
+  .promo{
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      justify-content: space-around;
+  }
+
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+  }
+
   .publish h3 {
     font-family: "Alegreya";
     color: #025157;
+    margin-left: 50px;
   }
   
   .publish > p {
