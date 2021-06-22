@@ -80,6 +80,19 @@ li{
       border-radius: 5px;
   }
 
+  .publish h3 {
+    font-family: "Alegreya";
+    color: #025157;
+  }
+  
+  .publish > p {
+    color: #343434;
+  }
+  
+  .publish > form p {
+    color: #025157;
+  }
+
 
 
 
