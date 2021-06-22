@@ -36,6 +36,14 @@ li{
 
   }
 
+  .fixed-header{
+      position: fixed;
+      background-color: white;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+
   .header > * {
       display: inline-block;
       font-size: 16px;
