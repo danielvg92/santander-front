@@ -116,6 +116,91 @@ li{
     color: #025157;
   }
 
+  .postwork{
+      background-color: #a1d683;
+      display: flex;
+  }
+  .postworkCenter{
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+  }
+  .informacion{
+      margin-right: 50px;
+  }
+  .informacion > *{
+      margin-bottom: 15px;
+  }
+  .informacion h1{
+      font-size: 50px;
+      color: #025157;
+  }
+  .informacion p{
+      font-size: 20px;
+  }
+  .informacion button{
+      color: white;
+      background-color: #025157;
+      border-radius: 8px;
+      padding: 11px;
+      font-size: 20px;
+      border: none;
+  }
+  .tarjeta{
+      background-color: white;
+      border-radius: 15px;
+      height: 700px;
+      width: 400px;
+
+  }
+  .perfil img{
+      width: 350px;
+      height: 300px;
+      border-radius: 15px 15px 0 0;
+      margin-bottom: 15px;
+  }
+  .tarjeta .logoEverly{
+      position: absolute;
+      margin-left: 230px;
+      width: 60px;
+      height: 60px;
+      background-color: #f9da73;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .tarjetaCuerpo h6{
+      font-size: 20px;
+      color: #025157;
+  }
+  .tarjetaCuerpo p{
+      font-size: 25px;
+      color: black;
+  }
+  .tarjetaCuerpo button{
+      margin-top: 20px;
+      color: white;
+      background-color: #025157;
+      border-radius: 8px;
+      padding: 11px;
+      font-size: 20px;
+      border: none;
+      width: 100px;
+
+  }
+  .imagenOferta{
+      display: flex;
+  }
+  .imagenOferta img{
+      margin-right: 15px;
+  }
+  .imagenOferta p{
+      font-size: 20px;
+      color: #aaaaaa;
+  }
+
 
 
 
